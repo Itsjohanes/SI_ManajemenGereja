@@ -42,18 +42,7 @@ e.g $arrDataFromDb = $comp_model->fetchData(); //function name
                         <!--[form-content-start]-->
                         @csrf
                         <div>
-                            <div class="form-group ">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <label class="control-label" for="id_renungan">Id Renungan <span class="text-danger">*</span></label>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div id="ctrl-id_renungan-holder" class=" ">
-                                            <input id="ctrl-id_renungan" data-field="id_renungan"  value="<?php  echo $data['id_renungan']; ?>" type="number" placeholder="Enter Id Renungan" step="any"  required="" name="id_renungan"  class="form-control " />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="form-group ">
                                 <div class="row">
                                     <div class="col-sm-4">

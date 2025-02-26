@@ -29,7 +29,7 @@ class Renungan extends Model
      * @var array
      */
 	protected $fillable = [
-		'id_renungan','tanggal','judul','isi'
+		'tanggal','judul','isi'
 	];
 	public $timestamps = false;
 	

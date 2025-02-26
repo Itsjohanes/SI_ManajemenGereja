@@ -25,7 +25,7 @@ class RenunganEditRequest extends FormRequest
 		
         return [
             
-				"id_renungan" => "filled|numeric",
+				
 				"tanggal" => "filled|date",
 				"judul" => "filled",
 				"isi" => "filled",

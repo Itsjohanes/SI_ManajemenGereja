@@ -25,7 +25,7 @@ class RenunganAddRequest extends FormRequest
 		
         return [
             
-				"id_renungan" => "required|numeric",
+				
 				"tanggal" => "required|date",
 				"judul" => "required",
 				"isi" => "required",
